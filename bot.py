@@ -116,5 +116,10 @@ async def 랜덤(ctx, 최대수: int):
         결과 += f"{이름}: {', '.join(숫자들)}\n"
     await ctx.send(결과)
 
+@bot.event
+async def on_ready():
+    print(f"✅ {bot.user} 로그인 완료!")
+
 bot.run(os.environ.get("TOKEN"))
+
 
