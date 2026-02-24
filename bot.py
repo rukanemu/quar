@@ -176,6 +176,5 @@ async def 랜덤(ctx, 최대수: int):
         결과 += f"{이름}: {', '.join(숫자들)}\n"
 
     await ctx.send(결과)
-# `YOUR_BOT_TOKEN` 부분을 실제 Discord 봇 토큰으로 대체하세요.
-# 토큰은 절대로 공개적으로 공유해서는 안 됩니다.
-await bot.start("TOKEN")
+    await bot.start("TOKEN")
+
