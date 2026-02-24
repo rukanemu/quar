@@ -176,5 +176,6 @@ async def 랜덤(ctx, 최대수: int):
         결과 += f"{이름}: {', '.join(숫자들)}\n"
 
     await ctx.send(결과)
-    await bot.start("TOKEN")
+    bot.run("TOKEN")
+
 
